@@ -81,7 +81,7 @@ a.nav-link{
 
 .features h1{
     font-size: 36px;
-    text-align: center;
+    text-align: right;
 }
 
 .speaker{
@@ -135,9 +135,16 @@ a.nav-link{
     border-radius: 20%;
 }
 
+#learn-more{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
 #form{
     display: flex;
-    justify-content: center;
+    justify-conteant: center;
     align-items: center;
     gap: 16px;
     font-size: 18px;
