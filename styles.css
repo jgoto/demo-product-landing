@@ -121,6 +121,10 @@ a.nav-link{
     font-size: 18px;
 }
 
+.pricing-heading{
+    width: 180px;
+}
+
 .pricing-plan{
     width: 180px;
     flex-direction: column;
