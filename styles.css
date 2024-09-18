@@ -1,3 +1,7 @@
+#body{
+    background-color: #fffff0;
+}
+
 #header{
     display: flex;
     flex-direction: row;
@@ -25,12 +29,17 @@ a.nav-link{
     height: 80px;
 }
 
+.fullwidth{
+    width: 100%;
+}
+
 #logo-box{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
     flex-direction: row;
+    border-radius: 5px;
 }
 
 #nav-bar{
@@ -41,11 +50,24 @@ a.nav-link{
     gap: 24px;
 }
 
-.features{
+#features-container{
     background-color: #6495ED;
     margin: 0;
     padding: 3vw 10vw;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#features-details{
+    display: flex;
+    flex-direction: row;
+    padding: 5vh 0;
+}
+
+#media-container{
+    display: flex;
+    align-content: center;
 }
 
 .features blockquote{
@@ -69,12 +91,14 @@ a.nav-link{
 }
 
 .feature-list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 24px;
+    margin: 0;
+    padding: 0;
+    padding-left: 3vw;
     list-style-type:square;
+}
+
+.feature-list li{
+    width: 100%;
 }
 
 .feature{
@@ -82,12 +106,6 @@ a.nav-link{
     padding: 8px;
     margin: 0;
     font-size: 20px;
-}
-
-iframe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .pricing{
