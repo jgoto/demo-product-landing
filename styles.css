@@ -144,7 +144,7 @@ a.nav-link{
 
 #form{
     display: flex;
-    justify-conteant: center;
+    justify-content: center;
     align-items: center;
     gap: 16px;
     font-size: 18px;
